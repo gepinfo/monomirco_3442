@@ -1,0 +1,128 @@
+<svg version="1.1" baseProfile="full" width="970.0" height="351.0" viewbox="0 0 970 351" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+[&lt;interface&gt;severity|+created_date: { type: Date; };+created_by: { type: String; };+last_modified_by: { type: String; };+last_modified_date: { type: Date; };+name: { type: String; };+description: { type: String; }|]
+[&lt;interface&gt;ticket|+created_date: { type: Date; };+created_by: { type: String; };+last_modified_by: { type: String; };+last_modified_date: { type: Date; };+name: { type: String; };+severity: { type: String; ref: &quot;severity&quot;; };+types: { type: String; ref: &quot;types&quot;; }|]
+[&lt;interface&gt;types|+created_date: { type: Date; };+created_by: { type: String; };+last_modified_by: { type: String; };+last_modified_date: { type: Date; };+name: { type: String; };+description: { type: String; }|]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="351.0" width="970.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)">
+<g data-name="severity">
+<g fill="lightblue" stroke="#33322E" data-name="severity">
+<rect x="0.0" y="30.0" height="235.0" width="278.0" data-name="severity"></rect>
+<path d="M0.0 61.0 L278.0 61.0" fill="none" data-name="severity"></path>
+<path d="M0.0 257.0 L278.0 257.0" fill="none" data-name="severity"></path>
+</g>
+<g transform="translate(0, 30)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="severity">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="severity">
+<a id="../application/services/diagrams/serviceModels/severity.ts.severity" xlink:href="../application/services/diagrams/serviceModels/severity.ts"><text x="131.0" y="13.5" stroke="none" text-anchor="middle" data-name="severity">severity</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 61)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="severity">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="severity">
+<text x="0.0" y="13.5" stroke="none" data-name="severity">+created_date: { type: Date</text>
+<text x="0.0" y="28.5" stroke="none" data-name="severity">}</text>
+<text x="0.0" y="43.5" stroke="none" data-name="severity">+created_by: { type: String</text>
+<text x="0.0" y="58.5" stroke="none" data-name="severity">}</text>
+<text x="0.0" y="73.5" stroke="none" data-name="severity">+last_modified_by: { type: String</text>
+<text x="0.0" y="88.5" stroke="none" data-name="severity">}</text>
+<text x="0.0" y="103.5" stroke="none" data-name="severity">+last_modified_date: { type: Date</text>
+<text x="0.0" y="118.5" stroke="none" data-name="severity">}</text>
+<text x="0.0" y="133.5" stroke="none" data-name="severity">+name: { type: String</text>
+<text x="0.0" y="148.5" stroke="none" data-name="severity">}</text>
+<text x="0.0" y="163.5" stroke="none" data-name="severity">+description: { type: String</text>
+<text x="0.0" y="178.5" stroke="none" data-name="severity">}</text>
+
+</g>
+</g>
+<g transform="translate(0, 257)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="severity">
+<g transform="translate(8, 8)" fill="#33322E" data-name="severity">
+
+</g>
+</g>
+</g>
+<g data-name="ticket">
+<g fill="lightblue" stroke="#33322E" data-name="ticket">
+<rect x="318.0" y="0.0" height="295.0" width="278.0" data-name="ticket"></rect>
+<path d="M318.0 31.0 L596.0 31.0" fill="none" data-name="ticket"></path>
+<path d="M318.0 287.0 L596.0 287.0" fill="none" data-name="ticket"></path>
+</g>
+<g transform="translate(318, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ticket">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="ticket">
+<a id="../application/services/diagrams/serviceModels/ticket.ts.ticket" xlink:href="../application/services/diagrams/serviceModels/ticket.ts"><text x="131.0" y="13.5" stroke="none" text-anchor="middle" data-name="ticket">ticket</text></a>
+
+</g>
+</g>
+<g transform="translate(318, 31)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ticket">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="ticket">
+<text x="0.0" y="13.5" stroke="none" data-name="ticket">+created_date: { type: Date</text>
+<text x="0.0" y="28.5" stroke="none" data-name="ticket">}</text>
+<text x="0.0" y="43.5" stroke="none" data-name="ticket">+created_by: { type: String</text>
+<text x="0.0" y="58.5" stroke="none" data-name="ticket">}</text>
+<text x="0.0" y="73.5" stroke="none" data-name="ticket">+last_modified_by: { type: String</text>
+<text x="0.0" y="88.5" stroke="none" data-name="ticket">}</text>
+<text x="0.0" y="103.5" stroke="none" data-name="ticket">+last_modified_date: { type: Date</text>
+<text x="0.0" y="118.5" stroke="none" data-name="ticket">}</text>
+<text x="0.0" y="133.5" stroke="none" data-name="ticket">+name: { type: String</text>
+<text x="0.0" y="148.5" stroke="none" data-name="ticket">}</text>
+<text x="0.0" y="163.5" stroke="none" data-name="ticket">+severity: { type: String</text>
+<text x="0.0" y="178.5" stroke="none" data-name="ticket">ref: &quot;severity&quot;</text>
+<text x="0.0" y="193.5" stroke="none" data-name="ticket">}</text>
+<text x="0.0" y="208.5" stroke="none" data-name="ticket">+types: { type: String</text>
+<text x="0.0" y="223.5" stroke="none" data-name="ticket">ref: &quot;types&quot;</text>
+<text x="0.0" y="238.5" stroke="none" data-name="ticket">}</text>
+
+</g>
+</g>
+<g transform="translate(318, 287)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="ticket">
+<g transform="translate(8, 8)" fill="#33322E" data-name="ticket">
+
+</g>
+</g>
+</g>
+<g data-name="types">
+<g fill="lightblue" stroke="#33322E" data-name="types">
+<rect x="636.0" y="30.0" height="235.0" width="278.0" data-name="types"></rect>
+<path d="M636.0 61.0 L914.0 61.0" fill="none" data-name="types"></path>
+<path d="M636.0 257.0 L914.0 257.0" fill="none" data-name="types"></path>
+</g>
+<g transform="translate(636, 30)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="types">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="types">
+<a id="../application/services/diagrams/serviceModels/types.ts.types" xlink:href="../application/services/diagrams/serviceModels/types.ts"><text x="131.0" y="13.5" stroke="none" text-anchor="middle" data-name="types">types</text></a>
+
+</g>
+</g>
+<g transform="translate(636, 61)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="types">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="types">
+<text x="0.0" y="13.5" stroke="none" data-name="types">+created_date: { type: Date</text>
+<text x="0.0" y="28.5" stroke="none" data-name="types">}</text>
+<text x="0.0" y="43.5" stroke="none" data-name="types">+created_by: { type: String</text>
+<text x="0.0" y="58.5" stroke="none" data-name="types">}</text>
+<text x="0.0" y="73.5" stroke="none" data-name="types">+last_modified_by: { type: String</text>
+<text x="0.0" y="88.5" stroke="none" data-name="types">}</text>
+<text x="0.0" y="103.5" stroke="none" data-name="types">+last_modified_date: { type: Date</text>
+<text x="0.0" y="118.5" stroke="none" data-name="types">}</text>
+<text x="0.0" y="133.5" stroke="none" data-name="types">+name: { type: String</text>
+<text x="0.0" y="148.5" stroke="none" data-name="types">}</text>
+<text x="0.0" y="163.5" stroke="none" data-name="types">+description: { type: String</text>
+<text x="0.0" y="178.5" stroke="none" data-name="types">}</text>
+
+</g>
+</g>
+<g transform="translate(636, 257)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="types">
+<g transform="translate(8, 8)" fill="#33322E" data-name="types">
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
